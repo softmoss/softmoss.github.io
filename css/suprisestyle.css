@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    background-image: url("https://media4.giphy.com/media/lPoOHG39XAlV4it61H/giphy.gif?cid=ecf05e47pk8y1h1y2zn69d7rgat5eqqm80bvbptmz7jkbto6&ep=v1_gifs_search&rid=giphy.gif&ct=g");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+body img{
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 250px;
+}
