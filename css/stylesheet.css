@@ -125,17 +125,20 @@ h1 {
 }
 
 .update-container {
-    max-width: 700px;
+    max-width: 500px;
     max-height: 500px;
-    padding: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
     background: #222;
-    color: #fff;
+    color: #fef4ba;
     overflow: hidden;
     overflow-y: scroll;
 }
-
+.update-container h3{
+    color:#7c6e2c;
+}
 .update-container p {
-    padding: 20px 20px;
+    padding: 10px 5px;
     text-align: justify;
 }
 
