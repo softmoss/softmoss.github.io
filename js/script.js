@@ -57,7 +57,7 @@ function addSearchFunctionality() {
         if (event.key === "Enter") {
             const searchTerm = searchInput.value.toLowerCase();
 
-            if (searchTerm === "door") {
+            if (searchTerm === "door" || searchTerm === "jimmy") {
                 window.location.href = "docs/door.html";
             }
             else if (searchTerm === "about") {
