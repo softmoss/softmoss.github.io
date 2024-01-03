@@ -37,13 +37,18 @@ async function fillUpdateContainer() {
         const titleElement = document.createElement("h3");
         titleElement.innerText = update.title;
 
+        const dateOfUpdate = document.createElement("p");
+        dateOfUpdate.innerText = update.date;
+
         const descriptionElement = document.createElement("p");
         descriptionElement.innerText = update.description;
 
         const dividerElement = document.createElement("p");
         dividerElement.innerText = update.divider;
+        dividerElement.style.textAlign = "center";
 
         updateCode.appendChild(titleElement);
+        updateCode.appendChild(dateOfUpdate);
         updateCode.appendChild(descriptionElement);
         updateCode.appendChild(dividerElement);
 
