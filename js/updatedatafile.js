@@ -1,33 +1,37 @@
 const updates =
     [{
         id: 1,
-        title: "First update",
+        title: ">First update",
+        date: "[21.10.23]",
         description:
-            "Make an index page with only css"
-            + " (still needs to be cleaned up) "
-            + "and make a dropdown button.",
+        "Make an index page with only CSS\n"
+        + "(still needs to be cleaned up)\n"
+        + "and make a dropdown button.",
         divider: "----------------"
     }, {
         id: 2,
-        title: "Second update",
+        date: "[21.10.23]",
+        title: ">Second update",
         description:
-            "Mess with javascript a lil (and fail haha)"
-            + " figure out how to remove that padding on the nav bar. "
+            "Mess with javascript a lil (and fail haha)\n"
+            + " figure out how to remove that padding on the nav bar.\n "
             + "heat up some soup also",
         divider: "----------------"
 
     }, {
         id: 3,
-        title: "Numberr trweee",
+        date: "[21.10.23]",
+        title: ">Number three",
         description:
-            "Fill up the update log thingy with data from this file"
-            + " realize i still have to push my assignment "
+            "Fill up the update log thingy with data from this file\n"
+            + " realize i still have to push my assignment\n "
             + "...i frogort what else to say",
         divider: "----------------"
 
     }, {
         id: 4,
-        title: "Have you seen my dog? ",
+        date: "[6.11.23]",
+        title: ">Have you seen my dog? ",
         description:
             "ever since he learned how to open doors I haven't seen him",
         divider: "----------------"
@@ -35,10 +39,22 @@ const updates =
     },
     {
         id: 5,
-        title: "upload on github ",
+        date: "[6.11.23]",
+        title: ">upload on github ",
         description:
-            "finish the semi-working version on github" + 
-            ". see if i can find a way to extract the images on insta and put them directly on the site, otherwise just link to said instagram",
+            "finish the semi-working version on github\n" + 
+            "see if i can find a way to extract the images on insta and put them directly on the site,\n otherwise just link to said instagram",
+        divider: "----------------"
+
+    },
+         {
+        id: 6,
+        date: "[3.1.24]",
+        title: ">cleanup",
+        description:
+            "cleanup log somewhat\n" +
+            "fix footer using grid\n" +
+            "add code to js searchfunction",
         divider: "----------------"
 
     },
