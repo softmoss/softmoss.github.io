@@ -238,7 +238,7 @@ input[type="radio"]:checked + label + .content{
     padding: 70px;
     text-align: center;
 }
-/* Footer styles */
+/* footer styles */
 footer {
     background-color: #7c6e2c;
     padding-top: 20px;
@@ -261,34 +261,42 @@ footer p {
 
 #footer-content {
     color: #fef4ba;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 200px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 100px;
+    justify-content: center;
+    max-width: 80%; 
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
-.footer-one {
-    max-width: 250px;
+.footer-one,
+.footer-two,
+.footer-three {
+    max-width: 300px; 
     text-align: justify;
 }
-
-.footer-one p {
-    font-size: 10px;
+.footer-one p{
+    font-size: small;
+}
+.footer-two p{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.footer-three p{
+    padding-top: 30px;
 }
 
 .social-icons {
     font-size: 20px;
     padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 .social-icons a {
     padding: 0 5px;
-}
-.footer-two{
-    padding-top: 30px;
-    text-align: center;
-}
-.footer-three {
-    padding-top: 30px;
 }
 
 /* dropdown menu */
