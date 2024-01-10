@@ -241,6 +241,24 @@ input[type="radio"]:checked + label + .content{
     padding: 70px;
     text-align: center;
 }
+/* animation page */
+.showreel-div{
+    padding-top: 20px;
+    margin-top: -70px;
+}
+.ani-line{
+    width:30%;
+    color:#b9a647;
+}
+.video-container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align:center;
+}
+.video-two-and-three{
+    padding: 50px 0 50px 0;
+    text-align: center;
+}
 /* footer styles */
 footer {
     background-color: #7c6e2c;
@@ -289,6 +307,7 @@ footer p {
 }
 .footer-three p{
     padding-top: 30px;
+    padding-left: 40px;
 }
 
 .social-icons {

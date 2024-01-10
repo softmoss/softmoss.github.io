@@ -58,5 +58,17 @@ const updates =
         divider: "----------------"
 
     },
+    {
+        id: 7,
+        date: "[10.1.24]",
+        title: ">add animation page",
+        description:
+            "add a simple animation page\n" +
+            "forget to take better pictures of recent ceramics\n" +
+            "start learning beepbox and dust of blender skills",
+        divider: "----------------"
+
+    },
+    
 
     ]
