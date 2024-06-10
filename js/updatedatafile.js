@@ -69,6 +69,16 @@ const updates =
         divider: "----------------"
 
     },
-    
+    {
+        id: 8,
+        date: "[11.6.24]",
+        title: ">add ceramics page",
+        description:
+            "add ceramics page\n" +
+            "make a draggable carousel of the images :)\n" +
+            "create unique theme for ceramics page",
+        divider: "----------------"
+
+    },
 
     ]

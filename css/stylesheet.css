@@ -112,7 +112,7 @@ main {
 
 /* Update log styles */
 h1 {
-    padding: 100px 0 20px 150px;
+    padding: 100px 0 20px 0px;
     color: #7c6e2c;
 
 }
@@ -238,10 +238,35 @@ input[type="radio"]:checked + label + .content{
     background-color: #fef4ba;
     color: #7c6e2c;
     margin: auto;
-    padding: 70px;
+    padding: 0px 70px 70px 70px;
+    margin-top: -50px;
     text-align: center;
 }
+.contact a{
+    color: #60551f;
+    font-weight: bolder;
+}
+
+.turnip-container{
+    position: relative;
+    display: inline-block;
+}
+.turnip-container #turnip2{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.turnip-container:hover #turnip2{
+    display: inline;
+}
+.turnip-container:hover #turnip{
+    opacity: 0;
+}
+
 /* animation page */
+
 .showreel-div{
     padding-top: 20px;
     margin-top: -70px;
@@ -254,10 +279,15 @@ input[type="radio"]:checked + label + .content{
     padding-top: 50px;
     padding-bottom: 50px;
     text-align:center;
+    
 }
 .video-two-and-three{
     padding: 50px 0 50px 0;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+#master,#bachelor{
+    padding: 0px 20px 0px 20px;
 }
 /* footer styles */
 footer {

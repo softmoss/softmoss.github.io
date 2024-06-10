@@ -57,20 +57,25 @@ async function fillUpdateContainer() {
 }
 
 function addSearchFunctionality() {
-    console.log("hi is this thing on");
     searchInput.addEventListener("keyup", function (event) {
         if (event.key === "Enter") {
             const searchTerm = searchInput.value.toLowerCase();
 
             if (searchTerm === "door" || searchTerm === "jimmy") {
-                window.location.href = "docs/door.html";
+                window.location.href = "door.html";
             }
             else if (searchTerm === "about") {
-                window.location.href = "docs/about.html"
+                window.location.href = "about.html"
             }
             else if (searchTerm === "contact") {
-                window.location.href = "docs/contact.html"
+                window.location.href = "contact.html"
+            }
+            else if (searchTerm === "animation" || searchTerm === "art") {
+                window.location.href = "animation.html"
             }  
+            else if (searchTerm === "ceramic" || searchTerm === "ceramics") {
+                window.location.href = "ceramics.html"
+            } 
             else {
                 searchInput.value = "";
                 searchInput.placeholder = "nothing happened";
