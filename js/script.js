@@ -76,6 +76,9 @@ function addSearchFunctionality() {
             else if (searchTerm === "ceramic" || searchTerm === "ceramics") {
                 window.location.href = "ceramics.html"
             } 
+            else if (searchTerm === "home" || searchTerm === "index") {
+                window.location.href = "index.html"
+            } 
             else {
                 searchInput.value = "";
                 searchInput.placeholder = "nothing happened";

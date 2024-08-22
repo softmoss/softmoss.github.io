@@ -238,7 +238,7 @@ input[type="radio"]:checked + label + .content{
     background-color: #fbf6e2;
     color: #7c6e2c;
     margin: auto;
-    padding: 0px 70px 40px 70px;
+    padding: 30px 70px 40px 70px;
     margin-top: -50px;
     text-align: center;
 }
@@ -282,7 +282,7 @@ input[type="radio"]:checked + label + .content{
 
 .showreel-div{
     padding-top: 20px;
-    margin-top: -70px;
+    margin-top: -20px;
 }
 .ani-line{
     width:30%;
