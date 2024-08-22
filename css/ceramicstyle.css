@@ -21,13 +21,19 @@ header img {
     width: 350px;
     padding: 50px 0px 0px 0px;
 }
+#pots{
+    width: 800px;
+    padding: 50px 0 50px 0;
+}
 .ceramics-top{
     position: relative;
     background-color: #7d8e79; 
     text-align: center;
     padding: 80px 0 120px 0;
     z-index: 1000;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .ceramics-top::before{
     content: "";
@@ -121,7 +127,7 @@ main {
 /* image carousel */
 .ceramic-main{
     display: flex;
-    padding: 0 35px;
+    padding: 0 35px 70px 35px;
     align-items: center;
     justify-content: center;
     min-height: 60vh;
@@ -138,7 +144,7 @@ main {
     font-size: 1.2rem;
     text-align: center;
     line-height: 50px;
-    background: #fffef9;
+    background: #ffffff;
     color: #563315;
     border-radius: 50%;
     position: absolute;
@@ -174,15 +180,102 @@ main {
 }
 .carousel img:first-child{
     margin-left: 0px;
+    
 }
+/* planted pots */
+.pp {
+    display: flex;
+    justify-content: center;
+    padding: 0 35px 70px 35px;
+}
+
+.planted-pots {
+    max-width: 1200px;
+    display: flex;
+    gap: 25px;
+}
+
+.planted-pots img{
+    height: 340px;
+    border-radius: 5%;
+    flex: 1; 
+    object-fit: cover;
+
+}
+.planted-pots p{
+    padding: 0 14px 0 14px;
+    margin: 0;
+    color: #563315;
+}
+
+/* other works */
+h2{
+    text-align: center;
+    color: #563315;
+    margin: 0;
+    padding: 60px 0; 
+}
+.other-ceramics {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    padding: 0 35px 70px 35px;
+}
+.other-work-container{
+    position: relative;
+    display: inline-block;
+}
+.other-work-container #other-work1{
+    border-radius: 5%;
+}
+.other-work-container #other-work2{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    border-radius: 5%;
+}
+.other-work-container:hover #other-work2{
+    display: inline;
+    border-radius: 5%;
+}
+.other-work-container:hover #other-work1{
+    opacity: 0;
+}
+
 @media screen and (max-width:900px){
     .carousel img{
         width:calc(100% / 2);
+    }
+    #pots{
+        width: 600px;
+    }
+    .planted-pots {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .planted-pots img, .planted-pots p {
+        width:calc(100%/ 2);
     }
 }
 @media screen and (max-width:550px){
     .carousel img{
         width:100%;
+    }
+    #pots{
+        width: 400px;
+    }
+    .planted-pots {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .planted-pots img, .planted-pots p {
+        width: 100%;
     }
 }
 
@@ -192,7 +285,6 @@ footer {
     padding-top: 20px;
     padding-bottom: 30px;
     font-size: medium;
-    border-radius: 20px 20px 0 0;
     margin-top: -20px;
 }
 
@@ -212,43 +304,13 @@ footer p {
 
 #footer-content {
     color: #fbf6e2;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); 
+    display: flex;
+    /* grid-template-columns: repeat(3, 1fr);  */
     gap: 100px;
     justify-content: center;
     max-width: 80%; 
     margin: 0 auto;
     padding: 0 20px;
-}
-
-.footer-one,
-.footer-two,
-.footer-three {
-    max-width: 300px; 
-    text-align: justify;
-}
-.footer-one p{
-    font-size: small;
-}
-.footer-two p{
-    display: flex;
-    justify-content: center;
-    padding-top: 30px;
-}
-.footer-three p{
-    padding-top: 30px;
-    padding-left: 40px;
-}
-
-.social-icons {
-    font-size: 20px;
-    padding-bottom: 10px;
-    display: flex;
-    justify-content: center;
-}
-
-.social-icons a {
-    padding: 0 5px;
 }
 
 /* dropdown menu */

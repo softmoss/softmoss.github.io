@@ -80,5 +80,16 @@ const updates =
         divider: "----------------"
 
     },
+    {
+        id: 9,
+        date: "[22.8.24]",
+        title: ">fill up ceramics page",
+        description:
+            "find the time to fill up the page\n" +
+            "fix the footer and change color palette\n" +
+            "make the other ceramic images hover-able :B",
+        divider: "----------------"
+
+    },
 
     ]
