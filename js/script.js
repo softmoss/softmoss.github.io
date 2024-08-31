@@ -20,6 +20,8 @@ function initialise() {
     searchInput = document.getElementById("search");
     doorImage = document.getElementById("doorImage");
 
+    document.getElementById("current-year").textContent = new Date().getFullYear();
+
     fillUpdateContainer();
     addSearchFunctionality();
 }

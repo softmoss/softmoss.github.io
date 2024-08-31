@@ -91,5 +91,15 @@ const updates =
         divider: "----------------"
 
     },
+    {
+        id: 10,
+        date: "[31.8.24]",
+        title: ">update about page",
+        description:
+            "change the look of the about page\n" +
+            "make the page more responsive\n",
+        divider: "----------------"
+
+    },
 
     ]
